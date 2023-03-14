@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    
+    <link rel="stylesheet" href="CSS.css">
+    <script src="Javascript.js"></script>
+
+
+</head>
+<body>
+
+    <header>
+
+        <div class="A">
+            <header>
+                <p id="a1"> Registration </p>
+    
+            </header>
+    
+        </div>
+    
+
+    </header>
+
+    <div class="form">
+
+        <form name="FillUp"action="php.php"  method="post">
+     
+            <p> <label class="Label1">Name :          <input type="text" class="Name" name="Name" required /></label> </p>
+
+            <p> <label class="Label1">Photograph of the Player: <input type="image" class="Photo" name="Photo" required/></label></p>
+          
+            <p> <label class="Label1">Date of Birth: <input type="date" class="Date of Birth" name="DateofBirth" required/></label></p>
+            
+            <p> <label class="Label1">Identity Proof: <input type="file" class="Identity Proof" name="IdentityProof" required/></label></p>
+          
+            <p> <label class="Label1">Mobile Number : <input type="number" class="Mobile Number" name="MobileNumber" required /></label> </p>
+    
+            <p> <label class="Label1">Land Line: <input type="tel" class="Landline" name="Landline" required/></label></p>
+
+            <p> <label class="Label1">Department :    <input type="text" class="Department" name="Department" required /></label> </p>
+
+            <p> <label class="Label1">Year :          <input type="number" id="Year" name="Year" required /></label> </p>
+    
+            <p> <label class="Label1">Sports :        <input type="text" id="Sports" name="Sports" required /></label> </p>
+
+            <p>
+                Category
+            </p>
+            <form class="Form Radio" required >
+            
+                <input type="radio" Class="Singles" name="CategoryType" >
+                <label for="Singles">Singles</label><br>
+                <input type="radio" Class="Doubles" name="CategoryType" >
+                <label for="Doubles">Doubles</label><br>  
+
+            </form>
+            
+            <p> <label class="Label1">Represent :     <input type="text" class="Representing" name="Represent" required /></label> </p>
+    
+            <p> <label class="Label1">College :       <input type="text" class="College" name="College" required /></label> </p>
+
+            <p> <label class="Label1">E-Mail Id :     <input type="email" class="E-Mail Id" name="EMailId" required /></label> </p>
+
+            <p> <label class="Label1">Password :     <input type="password" class="Password" name="Password" required /></label> </p>
+
+            <p> <label class="Label1">Time of Registration: <input type="time" class="TimeofRegistration" name="TimeofRegistration" required/></label></p>
+
+            <p> <label class="Label1">Date of Registration: <input type="date" class="DateofRegistration" name="DateofRegistration" required/></label></p>
+    
+            <p>
+                How did you Know?
+            </p>
+            
+            <form class="Form Check" required >
+            
+                <input type="checkbox" Class="Gmail" name="ModeofInformation" >
+                <label for="Gmail">Gmail</label><br>
+                <input type="Checkbox" Class="Twitter" name="ModeofInformation" >
+                <label for="Twitter">Twitter</label><br>  
+                <input type="Checkbox" Class="Yahoo" name="ModeofInformation" >
+                <label for="Yahoo">Yahoo</label><br>
+                <input type="Checkbox" Class="Google" name="ModeofInformation" >
+                <label for="Google">Google</label><br>    
+                
+            </form>
+            
+
+            <p> <button type="submit" onclick="ValidateForm()" class="button1">Register</button> </p>
+     
+        </form>
+    
+
+
+    </div>
+    
+    <footer>
+
+        <p id="p1">
+            Copy Right @2023
+        <br>Contact :N.Richard
+        <br>Contact Number:XXXXXXXXXXX<br>
+            Earth
+        </p> 
+
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: aqua;
+}    
+
+.A{
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    min-height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: aliceblue;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.form{
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin:auto;
+    font-family: 'Times New Roman';
+    font-size:20px;
+    color: aliceblue;
+    padding: 20px 40px;
+    border-style: double;
+    border-color: grey;
+    border-width: 10px;
+    border-radius: 8%;
+    margin: 10% 20%;
+    background-color: black;
+
+
+}
+
+.form{
+
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label{
+    display: inline-block;
+    /* width: 150px; */
+}
+
+
+.button1{
+    align-content: center;
+    justify-content: center;
+    margin:auto;
+    background-color: blue; 
+    border:darkblue;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 20%;
+    border-style: double;
+}
+
+.label1{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    min-height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: aliceblue;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: -50;
+}
+
+#p1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
