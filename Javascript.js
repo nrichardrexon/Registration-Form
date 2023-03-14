@@ -33,7 +33,7 @@ function ValidateForm() {
     }
 
     if( document.FillUp.MobileNumber.value == "" ) {
-        var mobNo = ^\+{0,2}([\-\. ])?(\(?\d{0,3}\))?([\-\. ])?\(?\d{0,3}\)?([\-\. ])?\d{3}([\-\. ])?\d{4};
+        var mobNo = '^\+{0,2}([\-\. ])?(\(?\d{0,3}\))?([\-\. ])?\(?\d{0,3}\)?([\-\. ])?\d{3}([\-\. ])?\d{4}';
         if(MobileNumber.value.match(mobNo))
           {
            return true;
